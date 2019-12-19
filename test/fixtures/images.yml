@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  folder_id: 1
+  focal_length: MyString
+  image_url: MyString
+  time_taken: 2019-12-18 23:38:24
+  name: MyString
+
+two:
+  folder_id: 1
+  focal_length: MyString
+  image_url: MyString
+  time_taken: 2019-12-18 23:38:24
+  name: MyString
