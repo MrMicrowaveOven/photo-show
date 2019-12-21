@@ -37,9 +37,9 @@ class ImagesController < ApplicationController
     end
   end
 
-  def delete
+  def destroy
     image = Image.find(params['id'])
-    image.delete!
+    image.delete
     render json:{image: 'deleted', id: params['id']}
   end
 

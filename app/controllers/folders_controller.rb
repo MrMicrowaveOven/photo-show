@@ -38,9 +38,9 @@ class FoldersController < ApplicationController
     end
   end
 
-  def delete
+  def destroy
     folder = Folder.find(params['id'])
-    folder.delete!
+    folder.delete
     render json:{folder: 'deleted', id: params['id']}
   end
 end
