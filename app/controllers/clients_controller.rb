@@ -33,7 +33,7 @@ class ClientsController < ApplicationController
 
   def destroy
     c = Client.find(params['id'])
-    c.delete
+    c.delete!
     render json:{client: 'deleted', id: params['id']}
   end
 end
